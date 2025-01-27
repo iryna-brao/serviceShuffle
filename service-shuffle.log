@@ -56,3 +56,6 @@
 2025-01-27T20:29:17.999+01:00  INFO 53738 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Starting ServiceShuffleApplicationTests using Java 21.0.5 with PID 53738 (started by iryna in /Volumes/Data/Downloads/service-shuffle)
 2025-01-27T20:29:18.001+01:00  INFO 53738 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
 2025-01-27T20:29:19.278+01:00  INFO 53738 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Started ServiceShuffleApplicationTests in 1.925 seconds (process running for 3.484)
+2025-01-27T20:36:17.064+01:00  INFO 53988 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Starting ServiceShuffleApplicationTests using Java 21.0.5 with PID 53988 (started by iryna in /Volumes/Data/Downloads/service-shuffle)
+2025-01-27T20:36:17.068+01:00  INFO 53988 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-01-27T20:36:18.357+01:00  INFO 53988 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Started ServiceShuffleApplicationTests in 1.976 seconds (process running for 3.529)
