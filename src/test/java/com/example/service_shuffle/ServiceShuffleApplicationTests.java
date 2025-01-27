@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
+
 
 
 @SpringBootTest
@@ -31,7 +31,7 @@ public class ServiceShuffleApplicationTests{
 
 		List<Integer> result = response.getBody();
 
-		// Перевірка розміру та відсутності дублікатів
+		// Checking size and ensuring no duplicates
 		assertNotNull(result);
 		assertEquals(5, result.size());
 		assertTrue(result.containsAll(List.of(1, 2, 3, 4, 5)));
@@ -44,7 +44,7 @@ public class ServiceShuffleApplicationTests{
 
 		int invalidNumber = 1001;
 
-		// Очікуємо IllegalArgumentException
+		// Expecting IllegalArgumentException
 		Exception exception = assertThrows(IllegalArgumentException.class, () -> controller.shuffle(invalidNumber));
 		assertEquals("Number must be between 1 and 1000", exception.getMessage());
 	}

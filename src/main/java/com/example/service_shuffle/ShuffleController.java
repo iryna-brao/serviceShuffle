@@ -27,52 +27,52 @@ public class ShuffleController {
 
     @PostMapping("/shuffle")
     public ResponseEntity<List<Integer>> shuffle(@RequestBody int number) {
-        // Валідація вхідного числа
+        // Validation of the input number
         if (number < 1 || number > 1000) {
             throw new IllegalArgumentException("Number must be between 1 and 1000");
         }
 
-        // Генеруємо список чисел від 1 до number
+        // Generate a list of numbers from 1 to number
         List<Integer> numbers = IntStream.rangeClosed(1, number)
                 .boxed()
                 .collect(Collectors.toList());
 
-        // Перемішуємо список
+        // Shuffle the list
         Collections.shuffle(numbers);
 
-        // Відправляємо лог-запит асинхронно
+        // Send LogRequest Async
         sendLogRequestAsync(number);
 
-        // Повертаємо результат
+        // Return the result
         return ResponseEntity.ok(numbers);
     }
 
     @Async
     public void sendLogRequestAsync(int number) {
         try {
-            // Створюємо повідомлення для логування
+            // Create message for logging
             String logMessage = "Shuffled array for number: " + number;
 
-            // Формуємо URL через UriComponentsBuilder
+            // Create url through UriComponentsBuilder
             String url = UriComponentsBuilder
                     .fromHttpUrl(logServiceUrl) // Базовий URL
                     .path("/api/v1/log")        // Додаємо шлях
                     .toUriString();
 
-            // Логування URL для дебагу
+            // Logging of URL for debug
             System.out.println("Sending POST request to: " + url);
 
-            // Виконуємо POST запит до service-log
+            // Make a POST request to service-log
             restTemplate.postForObject(url, logMessage, Void.class);
         } catch (Exception e) {
-            // Логування помилок у разі невдачі
+            // Error logging in case of failure
             System.err.println("Failed to send log request: " + e.getMessage());
         }
     }
 
     @ExceptionHandler(IllegalArgumentException.class)
     public ResponseEntity<String> handleIllegalArgumentException(IllegalArgumentException ex) {
-        // Обробка IllegalArgumentException і повернення 400 Bad Request
+        // Processing IllegalArgumentException and returning a 400 Bad Request
         return ResponseEntity.badRequest().body(ex.getMessage());
     }
 }

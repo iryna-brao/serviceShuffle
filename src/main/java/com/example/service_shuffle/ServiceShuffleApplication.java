@@ -12,7 +12,7 @@ public class ServiceShuffleApplication {
 		SpringApplication.run(ServiceShuffleApplication.class, args);
 	}
 
-	// Додаємо метод для створення біну RestTemplate
+	// Add method to create bin RestTemplate
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
