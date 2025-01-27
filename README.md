@@ -26,7 +26,7 @@ Client --> [POST /shuffle] --> Service-Shuffle --> [POST /log] --> Service-Log
 
 ## **Technologies Used**
 - **Spring Boot**: Backend framework for microservices.
-- **Java 11**: Programming language.
+- **Java 21**: Programming language.
 - **Maven**: Build and dependency management.
 - **RestTemplate**: HTTP client for making requests between services.
 - **SLF4J**: Logging framework.
