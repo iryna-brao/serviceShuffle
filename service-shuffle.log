@@ -1,3 +1,58 @@
 2025-01-27T20:02:14.956+01:00  INFO 48612 --- [service-shuffle] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
 2025-01-27T20:02:14.999+01:00  INFO 48612 --- [service-shuffle] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-01-27T20:02:15.015+01:00  INFO 48612 --- [service-shuffle] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-27T20:17:25.553+01:00  INFO 53399 --- [service-shuffle] [restartedMain] c.e.s.ServiceShuffleApplication          : Starting ServiceShuffleApplication using Java 21.0.5 with PID 53399 (/Volumes/Data/Downloads/service-shuffle/target/classes started by iryna in /Volumes/Data/Downloads/service-shuffle)
+2025-01-27T20:17:25.560+01:00  INFO 53399 --- [service-shuffle] [restartedMain] c.e.s.ServiceShuffleApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-01-27T20:17:25.740+01:00  INFO 53399 --- [service-shuffle] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-27T20:17:25.740+01:00  INFO 53399 --- [service-shuffle] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-27T20:17:29.374+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-27T20:17:29.421+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-27T20:17:29.421+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-27T20:17:29.529+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-27T20:17:29.530+01:00  INFO 53399 --- [service-shuffle] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3789 ms
+2025-01-27T20:17:30.887+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-27T20:17:30.932+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-27T20:17:30.975+01:00  INFO 53399 --- [service-shuffle] [restartedMain] c.e.s.ServiceShuffleApplication          : Started ServiceShuffleApplication in 6.679 seconds (process running for 8.363)
+2025-01-27T20:21:30.659+01:00  INFO 53399 --- [service-shuffle] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-01-27T20:21:30.664+01:00  INFO 53399 --- [service-shuffle] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-27T20:21:30.677+01:00  INFO 53399 --- [service-shuffle] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-27T20:21:30.811+01:00  INFO 53399 --- [service-shuffle] [restartedMain] c.e.s.ServiceShuffleApplication          : Starting ServiceShuffleApplication using Java 21.0.5 with PID 53399 (/Volumes/Data/Downloads/service-shuffle/target/classes started by iryna in /Volumes/Data/Downloads/service-shuffle)
+2025-01-27T20:21:30.812+01:00  INFO 53399 --- [service-shuffle] [restartedMain] c.e.s.ServiceShuffleApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-01-27T20:21:31.371+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-27T20:21:31.373+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-27T20:21:31.373+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-27T20:21:31.387+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-27T20:21:31.388+01:00  INFO 53399 --- [service-shuffle] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 572 ms
+2025-01-27T20:21:31.533+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-27T20:21:31.567+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-27T20:21:31.571+01:00  INFO 53399 --- [service-shuffle] [restartedMain] c.e.s.ServiceShuffleApplication          : Started ServiceShuffleApplication in 0.81 seconds (process running for 248.921)
+2025-01-27T20:21:31.574+01:00  INFO 53399 --- [service-shuffle] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-27T20:21:33.950+01:00  INFO 53399 --- [service-shuffle] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-01-27T20:21:33.952+01:00  INFO 53399 --- [service-shuffle] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-27T20:21:33.955+01:00  INFO 53399 --- [service-shuffle] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-27T20:21:34.103+01:00  INFO 53399 --- [service-shuffle] [restartedMain] c.e.s.ServiceShuffleApplication          : Starting ServiceShuffleApplication using Java 21.0.5 with PID 53399 (/Volumes/Data/Downloads/service-shuffle/target/classes started by iryna in /Volumes/Data/Downloads/service-shuffle)
+2025-01-27T20:21:34.104+01:00  INFO 53399 --- [service-shuffle] [restartedMain] c.e.s.ServiceShuffleApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-01-27T20:21:34.603+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-01-27T20:21:34.605+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-27T20:21:34.605+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-27T20:21:34.624+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-27T20:21:34.625+01:00  INFO 53399 --- [service-shuffle] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 515 ms
+2025-01-27T20:21:34.987+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-27T20:21:34.997+01:00  INFO 53399 --- [service-shuffle] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-01-27T20:21:35.001+01:00  INFO 53399 --- [service-shuffle] [restartedMain] c.e.s.ServiceShuffleApplication          : Started ServiceShuffleApplication in 0.963 seconds (process running for 252.351)
+2025-01-27T20:21:35.003+01:00  INFO 53399 --- [service-shuffle] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-27T20:21:36.728+01:00  INFO 53525 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Starting ServiceShuffleApplicationTests using Java 21.0.5 with PID 53525 (started by iryna in /Volumes/Data/Downloads/service-shuffle)
+2025-01-27T20:21:36.731+01:00  INFO 53525 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-01-27T20:21:38.208+01:00  INFO 53525 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Started ServiceShuffleApplicationTests in 1.945 seconds (process running for 3.462)
+2025-01-27T20:22:48.624+01:00  INFO 53561 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Starting ServiceShuffleApplicationTests using Java 21.0.5 with PID 53561 (started by iryna in /Volumes/Data/Downloads/service-shuffle)
+2025-01-27T20:22:48.626+01:00  INFO 53561 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-01-27T20:22:49.898+01:00  INFO 53561 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Started ServiceShuffleApplicationTests in 1.918 seconds (process running for 3.671)
+2025-01-27T20:24:39.938+01:00  INFO 53607 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Starting ServiceShuffleApplicationTests using Java 21.0.5 with PID 53607 (started by iryna in /Volumes/Data/Downloads/service-shuffle)
+2025-01-27T20:24:39.939+01:00  INFO 53607 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-01-27T20:24:41.212+01:00  INFO 53607 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Started ServiceShuffleApplicationTests in 1.956 seconds (process running for 3.488)
+2025-01-27T20:27:52.689+01:00  INFO 53690 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Starting ServiceShuffleApplicationTests using Java 21.0.5 with PID 53690 (started by iryna in /Volumes/Data/Downloads/service-shuffle)
+2025-01-27T20:27:52.691+01:00  INFO 53690 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-01-27T20:27:53.978+01:00  INFO 53690 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Started ServiceShuffleApplicationTests in 1.948 seconds (process running for 3.479)
+2025-01-27T20:29:17.999+01:00  INFO 53738 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Starting ServiceShuffleApplicationTests using Java 21.0.5 with PID 53738 (started by iryna in /Volumes/Data/Downloads/service-shuffle)
+2025-01-27T20:29:18.001+01:00  INFO 53738 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-01-27T20:29:19.278+01:00  INFO 53738 --- [service-shuffle] [main] c.e.s.ServiceShuffleApplicationTests     : Started ServiceShuffleApplicationTests in 1.925 seconds (process running for 3.484)

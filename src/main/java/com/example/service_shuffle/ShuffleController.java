@@ -48,7 +48,7 @@ public class ShuffleController {
     }
 
     @Async
-    private void sendLogRequestAsync(int number) {
+    public void sendLogRequestAsync(int number) {
         try {
             // Створюємо повідомлення для логування
             String logMessage = "Shuffled array for number: " + number;
